@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <!-- Your styles should be called here -->
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,131 +25,92 @@
 
   <body>
     <!-- YOUR CONTENT GOES HERE -->
-    <h1> How to be Vegan</h1>
-    <section id="grocerylist">
-      <div id="grocerylist">
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Flaxseed
-        <br>
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Chia Seeds
-        <br>
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Nutritional Yeast
-        <br>
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Beans and Lentils
-        <br>
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Canned Tomatoes
-        <br>
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Grains
-        <br>
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Whole Grain Pasta
-        <br>
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Nuts and Seeds
-        <br>
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Vegetables
-        <br>
-        <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
-        Spices
-        <br>
-      </div>
-    </section> <!-- the jQuery library. You need this to be able to use jQuery ($) -->
-    <div class="place1">
+    <div>
+      <h1>How much will it cost you to go plant-based?</h1>
+    </div>
+    <div class="my_table">
       <table>
-        <tbody>
-          <tr>
-            <th> Item </th>
-            <th> Cost</th>
-          </tr>
-          <tr class="item">
-            <td>Flaxseed</td>
-          <tr class="item">
-            <td>Chia Seeds</td>
-          <tr class="item">
-            <td>Nutritional Yeast</td>
-          <tr class="item">
-            <td>Beans and Lentils</td>
-          <tr class="item">
-            <td>Canned Tomatoes</td>
-          <tr class="item">
-            <td>Grains</td>
-          <tr class="item">
-            <td>Whole Grain Pasta</td>
-          <tr class="item">
-            <td>Nuts and Seeds</td>
-          <tr class="item">
-            <td>Vegetables</td>
-          <tr class="item">
-            <td>Spices</td>
-        </tbody>
+        <tr>
+          <th>Item</th>
+          <th>Hunt's Point</th>
+          <th>Jackson Heights</th>
+          <th>Soho</th>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Flaxseed</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Chia Seeds</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Nutritional Yeast</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Grains</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Beans and Lentils</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Nuts and Seeds</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Vegetables</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Canned Tomatoes</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Whole Grain Pasta</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td> <input type="checkbox" data-place1="1" data-place2="2" data-place3="3">
+            Spices</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
       </table>
     </div>
-    <div class="place2">
-      <table>
-        <tbody>
-          <tr>
-            <th> Item </th>
-            <th> Cost</th>
-          </tr>
-          <tr class="item">
-            <td>Flaxseed</td>
-          <tr class="item">
-            <td>Chia Seeds</td>
-          <tr class="item">
-            <td>Nutritional Yeast</td>
-          <tr class="item">
-            <td>Beans and Lentils</td>
-          <tr class="item">
-            <td>Canned Tomatoes</td>
-          <tr class="item">
-            <td>Grains</td>
-          <tr class="item">
-            <td>Whole Grain Pasta</td>
-          <tr class="item">
-            <td>Nuts and Seeds</td>
-          <tr class="item">
-            <td>Vegetables</td>
-          <tr class="item">
-            <td>Spices</td>
-        </tbody>
-      </table>
-    </div>
-    <div class="place3">
-      <table>
-        <tbody>
-          <tr>
-            <th> Item </th>
-            <th> Cost</th>
-          </tr>
-          <tr class="item">
-            <td>Flaxseed</td>
-          <tr class="item">
-            <td>Chia Seeds</td>
-          <tr class="item">
-            <td>Nutritional Yeast</td>
-          <tr class="item">
-            <td>Beans and Lentils</td>
-          <tr class="item">
-            <td>Canned Tomatoes</td>
-          <tr class="item">
-            <td>Grains</td>
-          <tr class="item">
-            <td>Whole Grain Pasta</td>
-          <tr class="item">
-            <td>Nuts and Seeds</td>
-          <tr class="item">
-            <td>Vegetables</td>
-          <tr class="item">
-            <td>Spices</td>
-        </tbody>
-      </table>
-    </div>
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Your javascript should be called here -->
