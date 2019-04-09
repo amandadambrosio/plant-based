@@ -21,16 +21,27 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    padding: 5px;
 }
 
 .container {
-    display: flex;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
+    padding: 5px;
 }
 
-.my_table {
-    display: flex;
+table {
+    width: 90%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.cell {
+    text-align: center;
+}
+
+#item_head {
+    text-align: left;
 }
 
 /*********************************************************************
