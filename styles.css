@@ -21,19 +21,38 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .container {
     margin: 0 auto;
     max-width: 900px;
-    padding: 5px;
+}
+
+h1 {
+    font-family: Georgia;
+}
+
+.text {
+    font-family: sans-serif;
 }
 
 table {
-    width: 90%;
-    border: 1px solid black;
-    padding: 5px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-family: helvetica;
+}
+
+td {
+    font-family: sans-serif;
 }
 
 .cell {
