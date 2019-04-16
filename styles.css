@@ -33,7 +33,7 @@ h1 {
     font-family: Georgia;
 }
 
-.text {
+.article {
     font-family: sans-serif;
 }
 
@@ -44,7 +44,7 @@ table {
 
 th, td {
     height: 40px;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
 }
 
 th {
@@ -55,8 +55,16 @@ td {
     font-family: sans-serif;
 }
 
-.cell {
+.hp, .jh, .sh {
     text-align: center;
+}
+
+.hp span, .jh span, .sh span {
+    display: none;
+}
+
+.hp.active span, .jh.active span, .sh.active span {
+    display: inline;
 }
 
 #item_head {
