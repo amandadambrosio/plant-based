@@ -12,6 +12,7 @@ $("body").on("change", "input[type='checkbox']", function (e) { // when checkbox
 
 
 		if ($this_checkbox.prop("checked")) { // when the checkbox is checked, add the active class to display values //
+			console.log("checked")
 			$this_hp.addClass("active");
 			$this_jh.addClass("active");
 			$this_sh.addClass("active");
@@ -30,12 +31,26 @@ $("body").on("change", "input[type='checkbox']", function (e) { // when checkbox
 			$(".sh_total").find("span").text(sh_total.toFixed(2));
 
 
+
+
 		} else {
 			$this_row.find(".hp").removeClass("active");
 			$this_row.find(".jh").removeClass("active");
 			$this_row.find(".sh").removeClass("active");
 		}
 
+
+
+	});
+
+	$("body").on("click", ".restart-btn", function (e) {
+		e.preventDefault();
+
+
+		$(".hp").removeClass('active'),
+			$(".jh").removeClass('active'),
+			$(".sh").removeClass('active'),
+			$('input[type=checkbox]').prop('checked', false);
 
 
 	});
