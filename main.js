@@ -25,9 +25,9 @@ $("body").on("change", "input[type='checkbox']", function (e) { // when checkbox
 				jh_total = jh_total + jh_val,
 				sh_total = sh_total + sh_val;
 
-			$(".hp_total").find("span").text(hp_total); // find the span defined by "hp_total" class and display the added values in that span //
-			$(".jh_total").find("span").text(jh_total);
-			$(".sh_total").find("span").text(sh_total);
+			$(".hp_total").find("span").text(hp_total.toFixed(2)); // find the span defined by "hp_total" class and display the added values in that span //
+			$(".jh_total").find("span").text(jh_total.toFixed(2));
+			$(".sh_total").find("span").text(sh_total.toFixed(2));
 
 
 		} else {
