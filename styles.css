@@ -31,10 +31,13 @@ html, body {
 
 h1 {
     font-family: Georgia;
+    text-align: center;
+    line-height: 1.3em;
 }
 
 .article {
     font-family: sans-serif;
+    line-height: 1.2em;
 }
 
 .byline {
@@ -80,12 +83,29 @@ td {
     text-align: left;
 }
 
+.restart-btn {
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+}
+
+/* .fadein {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+} */
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+.container {
+    max-width: 600px;
 }
 
 /*********************************************************************
