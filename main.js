@@ -51,6 +51,9 @@ $("body").on("change", "input[type='checkbox']", function (e) { // when checkbox
 			$(".jh").removeClass('active'),
 			$(".sh").removeClass('active'),
 			$('input[type=checkbox]').prop('checked', false);
+		$(".hp_total").find("span").text(''); // find the span defined by "hp_total" class and display the added values in that span //
+		$(".jh_total").find("span").text('');
+		$(".sh_total").find("span").text('');
 
 
 	});

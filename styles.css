@@ -86,6 +86,7 @@ td {
 .restart-btn {
     padding: 5px;
     margin-top: 10px;
+    display: flex;
 }
 
 /* .fadein {
