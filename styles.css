@@ -49,6 +49,26 @@ table {
     border-collapse: collapse;
 }
 
+.income {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.flex-item {
+    background-color: #A0CCA2;
+    padding: 15px;
+    margin-top: 5px;
+}
+
 th, td {
     height: 40px;
     border-bottom: 1px solid #ddd;
@@ -74,8 +94,12 @@ td {
     display: inline;
 }
 
-.hp_total, .jh_total, .sh_total {
+.hp_total, .jh_total, .sh_total, {
     text-align: center;
+    font-weight: 800;
+}
+
+.total {
     font-weight: 800;
 }
 
@@ -85,7 +109,8 @@ td {
 
 .restart-btn {
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
     display: flex;
 }
 
